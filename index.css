@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(170deg, red, yellow);
+}
+
+.ContainerinputP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.ContainerinputP p{
+    width: 80%;
+}
+
+.input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    padding: 10px;
+}
+
+.buttons{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.buttons button{
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.btnBlue{
+    background-color: blue;
+    color: white;
+}
+
+.btnRed{
+    background-color: red;
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    height: 100%;
+    width: 300px;
+    background-color: white;
+}

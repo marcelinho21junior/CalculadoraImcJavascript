@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <div class="ContainerinputP">
+        <p>Nome</p>
+        <input type="text" name="" class="input" id="nome">
+        <p>Idade</p>
+        <input type="text" name="" class="input" id="idade">
+        <p>Peso</p>
+        <input type="text" name="" class="input" id="peso">
+        <p>Altura</p>
+        <input type="text" name="" class="input" id="altura">
+        </div>
+    <div class="buttons">
+        <button class="btnBlue" onclick="enviar()">Enviar</button>
+        <button class="btnRed" onclick="limpar()">Limpar</button>
+    </div>
+    <div>
+        <form action="" method="post" id="formulario">
+            <p>IMC</p>
+            <p id="resnome"></p>
+            <p id="residade"></p>
+            <p id="resimc"></p>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
